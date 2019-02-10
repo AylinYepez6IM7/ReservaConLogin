@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MultiActivity</string>
+    <string name="carga">Carga</string>
+    <string name="toneladas">Toneladas</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="rControl">R. Control</string>
+    <string name="full">Full</string>
+    <string name="hint_nombreLugarLlegada">Nombre del Lugar de Llegada</string>
+    <string name="hint_nombreLugarSalida">Nombre del Lugar de Salida</string>
+    <string name="hint_descripcion">Descripcion</string>
+    <string name="hint_fecha">Fecha</string>
+    <string name="hint_hora">Hora</string>
+    <string name="hint_pago">Pago</string>
+    <string name="registrame">Registrarme...\"</string>
+    <string name="inicia_Sesion">INICIA SESION</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="cierra_Sesion">Cierra Sesion</string>
+    <string name="tipoCaja">Tipo de Caja</string>
+    <string name="dobleRemolque">Doble Remolque</string>
+    <string name="RControl">R. Control</string>
+    <string name="regresar">Regresar</string>
+    <string name="contra">2425</string>
+    <string name="nickName">FYG</string>
+</resources>

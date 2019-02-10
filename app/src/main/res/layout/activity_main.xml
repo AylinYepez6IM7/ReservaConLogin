@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/electrolize"
+        android:text="@string/inicia_Sesion"
+        android:textSize="45sp" />
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario"
+        android:fontFamily="@font/electrolize"
+        android:textSize="25sp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/nickName"/>
+    <EditText
+        android:id="@+id/contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/contraseña"
+        android:fontFamily="@font/electrolize"
+        android:textSize="25sp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/contra"/>
+    <Button
+        android:id="@+id/entrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/entrar"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffffff"
+        android:background="#890E4F"
+        android:onClick="boton"/>
+</LinearLayout>
